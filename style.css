@@ -1,0 +1,132 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  display: grid;
+  row-gap: 2rem;
+  }
+  
+  /* ---start of nav---- */
+  .nav-wrapper {
+  border: 0.5px solid red;
+  display: flex;
+  column-gap: 2rem;
+  justify-content: space-between;
+  /* padding:1rem; */
+  }
+  .nav-wrapper a {
+  text-decoration: none;
+  }
+  
+  .nav-wrapper .nav-col-grp {
+  /* border: 0.5px dashed green; */
+  }
+  .nav-wrapper .nav-col-grp:nth-child(1) {
+  display: flex;
+  column-gap: 2rem;
+  align-items: center;
+  padding: 0 2rem;
+  }
+  .nav-wrapper .nav-col-grp:nth-child(2) {
+  display: flex;
+  column-gap: 2rem;
+  align-items: center;
+  }
+  
+  .nav-col-grp .nav-col-sub-grp:nth-child(2) {
+  display: flex;
+  column-gap: 2rem;
+  text-transform: capitalize;
+  }
+  .nav-col-grp .nav-col-sub-grp:nth-child(2) a {
+  color: #2f2f2f;
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+  }
+  .nav-wrapper .nav-col-grp:nth-child(2) a {
+  padding: 1.5rem 2rem;
+  text-transform: capitalize;
+  }
+  .nav-wrapper .nav-col-grp:nth-child(2) a:nth-child(2) {
+  background-color: blue;
+  color: white;
+  }
+  /* ---end of nav---- */
+  
+  /* -----start of main----- */
+  main {
+  border: 0.5px solid red;
+  }
+  .plans-grp-wrapper {
+  padding: 1rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  border: 0.5px solid black;
+  /* align-items: baseline; */
+  }
+  .plans-grp {
+  border: 0.5px solid rgb(0, 51, 255);
+  display: grid;
+  row-gap: 1rem;
+  /* place-items: center; */
+  padding: 4rem 1rem;
+  text-align: center;
+  /* align-content: stretch; */
+  }
+  .plans-grp-child:nth-child(1) {
+  text-transform: uppercase;
+  }
+  .plans-grp-child:nth-child(2) {
+  text-transform: capitalize;
+  color: rgb(0, 51, 255);
+  font-weight: bold;
+  font-size: 18px;
+  }
+  .big-59 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "times new roman";
+  /* background-color: aqua; */
+  padding-top: 2rem;
+  display: inline-flex;
+  }
+  .plans-grp-child:nth-child(3) {
+  /* height:200px; */
+  }
+  .plans-grp-child:nth-child(4) {
+  display: flex;
+  }
+  .plans-grp-child-btn {
+  border: 0.5px solid #2f2f2f;
+  /* width: 100%; */
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  }
+  .popular-plan-btn {
+  background-color: rgb(0, 51, 255);
+  color: white;
+  border: none;
+  }
+  .popular-head {
+  background-color: rgb(0, 51, 255);
+  /* height: 25px; */
+  padding: 0.4rem;
+  text-align: center;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  }
+  .empty-head {
+  padding: 1rem;
+  }
+  /* -----end of main----- */
+  
+  /* ------start of footer----- */
+  .footer-wrapper {
+  border: 0.5px solid red;
+  }
+  /* ------end of footer----- */
+  
+  
